@@ -1,0 +1,39 @@
+{
+  "name": "discord-custom-quiz",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "watch": "tsc -p tsconfig.json -w",
+    "test": "mocha -r ts-node/register \"**/__tests__/**/*.test.ts\""
+  },
+  "keywords": [
+    "discord",
+    "quiz"
+  ],
+  "author": "João Vanzuita",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@types/node": "^13.9.3",
+    "discord.js": "^12.0.2",
+    "dotenv": "^8.2.0",
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^7.2.0",
+    "eslint-plugin-import": "^2.20.1",
+    "mocha": "^7.1.1",
+    "nodemon": "^2.0.2",
+    "ts-mockito": "^2.5.0",
+    "ts-node": "^8.8.1"
+  }
+}

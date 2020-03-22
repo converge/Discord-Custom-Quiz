@@ -1,0 +1,18 @@
+{
+  "1": {
+    "question": "Qual é a saída do seguinte código?\n```js\nconsole.log(typeof variable);\n```",
+    "choices": {
+      "1": "ReferenceError: variable is not defined",
+      "2": "undefined"
+    },
+    "answer": "2"
+  },
+  "2": {
+    "question": "Qual é a saída do seguinte código?\n```js\nconsole.log(variable);\n```",
+    "choices": {
+      "1": "ReferenceError: variable is not defined",
+      "2": "undefined"
+    },
+    "answer": "1"
+  }
+}
