@@ -14,5 +14,29 @@
       "2": "undefined"
     },
     "answer": "1"
+  },
+  "3": {
+    "question": "É JavaScript case-sensitive?\n\n",
+    "choices": {
+      "1": "Sim",
+      "2": "Não"
+    },
+    "answer": "1"
+  },
+  "4": {
+    "question": "Qual é o resultado?\n```js\nNumber(\"1\") - 1 == 0;\n```",
+    "choices": {
+      "1": "true",
+      "2": "false"
+    },
+    "answer": "1"
+  },
+  "5": {
+    "question": "Qual é o resultado?\n```js\n(true + false) > 2 + true;\n```",
+    "choices": {
+      "1": "true",
+      "2": "false"
+    },
+    "answer": "2"
   }
 }
